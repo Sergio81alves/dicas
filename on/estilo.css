@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-size: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #e6e6e6;
+    text-align: center;
+}
+#total {
+    background: #CCC;
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;  
+}
+#postagem{
+    background: #afa4a4d2;
+    margin-bottom: 15px;
+}
+#cursos {
+    background: #807979;
+    display: inline-block;
+    padding-top: 10px;
+    margin-bottom: 15px;
+
+}
+h6 {
+    background: rgb(230, 175, 175);
+    color: red;
+    margin: 15px 10px;
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    background: red;
+}
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+aside#lateral{
+    float: right;
+    background: rgb(225, 242, 247);
+    color: blue;
+    
+}
+
+
+
+#rodape {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #CCC;
+    color: aqua;
+}

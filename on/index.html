@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>primeiro_on</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+
+    <script>
+        var quebrada = false;
+        function mudaLampada(tipo){
+            if (!quebrada){
+                 document.getElementById('Luz').src =tipo + '.jpg';
+                 if (tipo == 'imagens/lampada quebrada')
+                 quebrada = true;
+            }
+        }
+     
+    
+    
+    </script>
+</head>
+<body>
+  <div id="total">
+    <div>
+        <h1>Bem Vindo</h1>
+
+           <!--abertura postagem-->
+           <div id="postagem">
+            <h2>Dicas</h2>
+            <div id="cursos">
+                <h3><a href="https://www.youtube.com/watch?v=S9uPNppGsGo" target="blank">PORQUÊ Aprender programação</a></h3>
+                <hr>
+                <h3> <a href="https://www.youtube.com/watch?v=BXqUH86F-kA&list=PLntvgXM11X6pi7mW0O4ZmfUI1xDSIbmTm" target="_blank">Curso de Javascript Grátis</a></h3> <hr>
+                <h3> <a href=https://www.youtube.com/watch?v=sTX0UEplF54&list=PLHz_AreHm4dkI2ZdjTwZA4mPMxWTfNSpR target="_blank">Curso de Java Grátis</a></h3>
+                <h6><a href="https://t.me/joinchat/AAAAAEiLEV7Bx9xT4fMgzw" target="blank">esse é como você fazer cursos da udemy, com o famoso jeitinho brasileiro 😎</a></h6>
+            </div>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore amet reprehenderit sapiente tenetur libero delectus explicabo dolorem nesciunt laborum, officiis inventore quasi facilis iste modi laboriosam obcaecati, quos recusandae? Vitae.</p>
+                  <a href="">Leia mais</a>
+        </div><!--fechamento postagem-->
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem, labore qui itaque quis soluta nulla expedita nisi eum? Voluptatum veniam provident iste ea expedita repellendus vero voluptatem. Ducimus, modi recusandae!</p>
+     <aside id="lateral">
+        <h1>Acenda a lampada </h1>
+        <img src="imagens/lampada apagada.jpg" alt="teste" id= 'Luz'onmousemove='mudaLampada("imagens/lampada acesa")'onmouseout='mudaLampada("imagens/lampada apagada")'onclick='mudaLampada("imagens/lampada quebrada")'>
+    </aside>
+
+        <img src="imagens/favicom/apple-touch-icon.png" alt=""> 
+    </div>
+    <footer id="rodape">&copy;Sergio Alves</footer>
+    
+  </div>
+</body>
+</html>
